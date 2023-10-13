@@ -5,7 +5,7 @@ import './App.css'
 function App() {
   const [inputCategories, setInputCategories] = useState("")
   const[inputNewPrices, setInputNewPrices] = useState(null);
-  const [hide, setHide] = useState(true) 
+  const [hide, setHide] = useState(false) 
   const [colors, setColors] = useState();
 
   const handleChangeCat = (categories) => {

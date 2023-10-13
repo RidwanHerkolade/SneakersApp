@@ -1,7 +1,6 @@
 .side__divs {
     width: 100%;
     height: 100%;
-    background-color: black;
    position: relative;
 }
 .side__div {
@@ -38,6 +37,7 @@ aside{
 }
 .side__inputs .inp {
     display: flex;
+    align-items: center;
     font-family: var(--font-family);
     margin-top: 0.5rem;
     gap: 0.5rem;  

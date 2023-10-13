@@ -4,7 +4,6 @@
     margin: 2rem 0rem;
     row-gap: 2rem;
     column-gap: 2rem;
-    /* justify-items: center; */
 }
 .data__grids {
     box-shadow: var(--box-shadow);

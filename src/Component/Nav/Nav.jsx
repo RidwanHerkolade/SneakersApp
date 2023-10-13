@@ -11,7 +11,7 @@ export default function Nav({handleChange, handleSubmit, inputValue,handleHide,h
   return (
     <div className='nav__divs'>
        <div className='nav__div'>
-            <div className='hhide'>{hide ? <CloseIcon style={{fontSize: "2rem", color:"black", cursor:"pointer"}} onClick={handleHide}/>:<ListIcon style={{fontSize: "2rem", color:"black" ,cursor:"pointer"}} onClick={handleHide}/>}</div>
+            <div className='hhide' >{hide ? <CloseIcon style={{fontSize: "2rem", color:"black", cursor:"pointer"}} onClick={handleHide}/>:<ListIcon style={{fontSize: "2rem", color:"black" ,cursor:"pointer"}} onClick={handleHide}/>}</div>
             <Form handleChange={handleChange} handleSubmit={handleSubmit} inputValue={inputValue}/> 
            <div className='nav__icons'>
                  <FavoriteBorderIcon/>
