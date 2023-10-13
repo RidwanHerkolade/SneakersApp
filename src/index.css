@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+:root {
+  --background1: rgba(183, 4, 133, 0.1);
+  --font-family: 'Montserrat', sans-serif;
+  --font-familys: 'Pacifico', cursive;
+  --font-fold: 20px;
+  --font-smallz: 9px;
+  --font-smalls: 11px;
+  --font-small: 14px;
+  --font-book: 13px;
+  --font-books: 12px;
+  --font-nav: 1rem;
+  --font-smallz: 13px;
+  --detailBg: #E5E5E5;
+  --font-logo: 15px;
+  --font-logos: 17px;
+  --color-red: red;
+  --font-header: 25px;
+  --font-new: 28px;
+  --color-grey: #D6DBF5;
+  --color-drop: #F5F5F5;
+  --color-border: #aba6a6;
+  --color-blackie: black;
+  --color-chart:#FBFBFB;
+  --color-black: #6A6A6A;
+  --color-zero: #000000;
+  --color-black2: #001E33;
+  --color-orange: #f8b310;
+  --color-white: white;
+  --color-f7: #F5F7FB;
+  --color-whites:#FAFAFA;
+  --color-logo:#13e494;
+  --color-purple: #4D5B9E;
+  --color-dpurple: #D6DBF5;
+  --color-mpurple:#293264;
+  --color-logos: #127D60;
+  --box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.05);
+  
+}
+img {
+  margin: 0rem;
+ padding: 0rem;
+}
+html {
+ scroll-behavior: smooth;
+ box-sizing: border-box;
+}
+body {
+ padding: 0rem;
+ background: var(--color-white);
+ margin: 0rem;
+ font-family: var(--font-family);
+}
+h1,h2,h3,h4,h5,h6 {
+ padding: 0rem;
+ margin: 0rem;
+}
+ul {
+ list-style: none;
+}
+a {
+ text-decoration: none;
+}

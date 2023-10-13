@@ -1,0 +1,16 @@
+.h2 {
+    margin: 0rem 2rem;
+    position: relative;
+}
+.h2 h2 {
+    line-height: 50px;
+    color: var(--color-blackie);
+    font-size: var(--font-fold);  
+
+}
+ @media screen and (max-width: 600px) {
+    .h2 {
+        margin: 0rem 1.5rem;
+    }
+    
+ }
