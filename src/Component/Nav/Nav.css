@@ -15,7 +15,7 @@
     align-items:  center;
 }
 .hhide {
-    display: none;
+    display: flex;
 }
 .form input {
     background: var(--color-drop);
